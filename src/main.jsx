@@ -13,7 +13,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route index element={<Search />} />
         <Route path="Pokemon" element={<Pokemon />} />
         <Route path="*" element={<Page404 />} />
-        <Route path="/Pokemon?inputField=1026" element={<Page404 />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
